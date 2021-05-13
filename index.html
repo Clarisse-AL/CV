@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Clarisse Alamelu</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Clarisse Alamelu</h1>
+    </header>
+    <section class="about">
+      <img src="images/photoprofil.jpg" alt="Photo de Clarisse" />
+      <h2>Présentation</h2>
+      <p>
+        Bonjour ! Je suis Clarisse Alamelu en formation <a
+        href="https://www.linkedin.com/in/clarisse-alamelu/"
+        target="_blank"
+        >Développeuse Salesforce</a> basée
+        à Melun.<br />
+        Dotée d’une très bonne capacité d’écoute, je comprends et j’analyse ce que l’on me demande.
+        Mon sens de l’organisation me permet d’assurer de façon optimale et efficiente les tâches qui me sont confiées.
+      </p>
+    </section>
+    <section class="skills">
+      <h2>Compétences</h2>
+      <div class="skills-content">
+        <div class="skills-column">
+          <div class="progress-container">
+            <span class="progress-badge">Standard & Custom objects</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Internal Security & Access</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">VS Code</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+              <span class="progress-value">60%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+        </div>
+        <!-- Fin .skills-column -->
+        <div class="skills-column">
+          <div class="progress-container">
+            <span class="progress-badge">Process & Flow builder</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%;"></div>
+              <span class="progress-value">70%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Reports & Dashboards</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;"></div>
+              <span class="progress-value">80%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Lightning</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+        </div>
+        <!-- Fin .skills-column -->
+      </div>
+      <!-- Fin .skills-content -->
+    </section>
+    <section class="timeline">
+      <h2>Expérience</h2>
+      <ul>
+        <!-- Début expérience 1 -->
+        <li>
+          <div class="bubble">
+            <time>2020 - 2021</time>
+            <span>Formation Administrateur Salesforce sur Trailhead</span>
+            <br />France
+          </div>
+        </li>
+        <!-- Fin expérience 1 -->
+        <!-- Début expérience 2 -->
+        <li>
+          <div class="bubble">
+            <time>2018 - 2020</time>
+            <span>Assistante formation</span>
+            <br />Paris, France
+          </div>
+        </li>
+        <!-- Fin expérience 2 -->
+        <!-- Début expérience 3 -->
+        <li>
+          <div class="bubble">
+            <time>2014 - 2015</time>
+            <span>Assistante commercial</span>
+            <br />Paris, France
+          </div>
+        </li>
+        <!-- Fin expérience 3 -->
+        <!-- Début expérience 4 -->
+        <li>
+          <div class="bubble">
+            <time>2010 - 2013</time>
+            <span>Assitante marketing</span>
+            <br />Pantin, France
+          </div>
+        </li>
+        <!-- Fin expérience 4 -->
+        <!-- Début expérience 5 -->
+        <li>
+          <div class="bubble">
+            <time>2009 - 2010</time>
+            <span>Assistante Consultant</span>
+            <br />Paris, France
+          </div>
+        </li>
+        <!-- Fin expérience 5 -->
+      </ul>
+    </section>
+    <section class="contact">
+      <h2>Contact</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21133.785642291117!2d2.639863909816385!3d48.538536052639245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5fa62379c029f%3A0x40b82c3688c5450!2s77000%20Melun!5e0!3m2!1sfr!2sfr!4v1620910277424!5m2!1sfr!2sfr"
+        width="600"
+        height="450"
+        style="border: 0;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <form name="contact" method="POST" data-netlify="true">
+        <div class="row">
+          <div class="form-group">
+            <label>Nom</label>
+            <input type="text" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Votre email"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea
+            name="message"
+            placeholder="Votre message..."
+            required
+          ></textarea>
+        </div>
+        <button class="btn">Envoyer</button>
+      </form>
+    </section>
+  </body>
+</html>
